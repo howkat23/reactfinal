@@ -1,38 +1,85 @@
+body {
+    background: url(hotdog.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Merriweather', serif;
+    background-color: #dcedf7;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.button-add {
+    font-family: 'Merriweather', serif;
+    background-color: #77cf40;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+
+.button-delete {
+    font-family: 'Merriweather', serif;
+    background: none;
+    border: 0;
+    color: red;
+    font-weight: bolder;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.whole-plan {
+    width: 70%;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.myInput {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+textarea {
+    display: block;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 
 }
 
-.App-link {
-  color: #61dafb;
+.selected {
+    background-color: #fad106;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.default {
+    background-color: #dcedf7;
 }
+
+p {
+    color: #ffff;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.field {
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 14px;
+}
+
